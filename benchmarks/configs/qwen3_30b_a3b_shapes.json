@@ -1,0 +1,10 @@
+{
+  "model": "Qwen3-30B-A3B",
+  "total_params": "30B",
+  "active_params": "3B",
+  "num_experts": 128,
+  "num_active_experts": 8,
+  "hidden_dim": 2048,
+  "intermediate_dim": 768,
+  "note": "仅 kernel 级 shape 测试（完整模型超出 16GB 显存）"
+}

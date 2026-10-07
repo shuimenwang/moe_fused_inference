@@ -1,0 +1,5 @@
+torch>=2.0
+numpy
+safetensors
+huggingface_hub
+pyyaml

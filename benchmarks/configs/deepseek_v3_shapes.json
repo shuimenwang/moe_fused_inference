@@ -1,0 +1,10 @@
+{
+  "model": "DeepSeek-V3",
+  "total_params": "671B",
+  "active_params": "37B",
+  "num_experts": 256,
+  "num_active_experts": 8,
+  "hidden_dim": 7168,
+  "intermediate_dim": 2048,
+  "note": "仅 kernel 级 shape 测试（完整模型超出 16GB 显存）"
+}

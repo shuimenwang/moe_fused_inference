@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Build artifacts
+build/
+*.o
+*.so
+*.a
+*.cubin
+*.ptx
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.ninja
+.ninja_*
+
+# Compiled probes
+quant/probe_sm120a
+quant/probe_*
+
+# Test outputs / probe data
+quant/hardware_profile.yaml
+quant/verify_metrics.json
+quant/e2e_mma_metrics.json
+quant/decode_bench.json
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Weights / checkpoints (large, not for git)
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.gguf
+quant/selftest/
+
+# Python env
+venv/
+.venv/
+env/

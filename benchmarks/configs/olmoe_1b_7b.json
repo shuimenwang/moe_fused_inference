@@ -1,0 +1,13 @@
+{
+  "model": "OLMoE-1B-7B",
+  "total_params": "7B",
+  "active_params": "1B",
+  "num_experts": 64,
+  "num_active_experts": 8,
+  "hidden_dim": 2048,
+  "intermediate_dim": 1024,
+  "num_layers": 16,
+  "fp8_weight_bytes": 7,
+  "kv_cache_per_token_kb": 256,
+  "note": "端到端验证模型，可完整塞入 5060 16GB 显存"
+}
